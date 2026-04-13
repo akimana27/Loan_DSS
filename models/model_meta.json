@@ -1,0 +1,23 @@
+{
+  "best_model": "Random Forest",
+  "auc": 0.9338,
+  "accuracy": 0.963,
+  "avg_precision": 0.8969,
+  "cv_auc": 0.9542,
+  "features": [
+    "Age",
+    "Income",
+    "LoanAmount",
+    "CreditScore",
+    "YearsExperience",
+    "LoanToIncome",
+    "Gender",
+    "Education",
+    "City",
+    "EmploymentType"
+  ],
+  "class_distribution": {
+    "0_rejected": 3079,
+    "1_approved": 921
+  }
+}
